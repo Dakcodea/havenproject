@@ -1,5 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
+    font-size: 19px;
 }
 
 h1, h2, h3 {
@@ -20,7 +21,6 @@ h3 {
 
 .carousel-color {
     color: royalblue;
-
 }
 
 .carousel-item {
@@ -63,7 +63,8 @@ h3 {
 
 
 .carousel {
-    border: solid grey; }
+    border: solid grey; 
+}
 
 .divider {
     text-align: center;
@@ -73,15 +74,18 @@ h3 {
     padding-top: 15px;
 }
 
-
 .card {
     padding: 0;
-    padding-top: 13px;
+    padding-bottom: 40px;
     text-align: center;
 
 }
 
+.contact {
+    padding-top: 20px;
+}
+
 .site-footer {
-    background-image: linear-gradient(to top, rgb(125, 125, 125), rgb(106, 106, 106), rgb(85, 85, 85),rgb(66, 64, 64));
+    /*background-image: linear-gradient(to top, rgb(125, 125, 125), rgb(106, 106, 106), rgb(85, 85, 85),rgb(66, 64, 64));*/
     padding: 20px 0;
 }
